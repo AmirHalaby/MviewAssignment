@@ -1,0 +1,6 @@
+@MviewAssignment_HostAddress = http://localhost:5082
+
+GET {{MviewAssignment_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
