@@ -14,9 +14,8 @@ namespace Mview.Api.Controllers
             _logger = logger;
             _licensePlateChecksService = licensePlateChecksService;
         }
-        
 
-        [HttpPost("LicensePlateCheckErrors")]
+        [HttpPost("DiscoverLicensePlatesWithErrorsAndFixThem")]
         public IActionResult LicensePlateCheckErrors()
         {
             _logger.LogInformation("LicensePlateCheckErrors Controller");
